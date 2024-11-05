@@ -14,7 +14,7 @@ import WorkDetail from "./pages/WorksDetails/WorksDetails";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/portfolio">
         <Header />
         <main>
           <Routes>
