@@ -1,0 +1,40 @@
+.header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Garde l'espacement entre l'image et la nav */
+    align-items: center; /* Centre verticalement les éléments */
+    border-bottom: $default-border $border-color;
+    z-index: 997;
+    padding: 15px;
+    background: $primary;
+    color: $primary_text;
+    height: 50px;
+
+    &__menu{
+      display: flex;
+      flex-direction: row-reverse;
+      margin: 20px;
+      justify-content: center;
+      align-items: center;
+
+      @media (min-width: 768px) {
+          flex-direction: row;
+      }
+    }
+}
+
+.header__img {
+    height: 50px;
+}
+
+
+body.night-mode {
+    .header {
+      background-color: $night-primary;
+      color: $night-primary-text;
+      border-bottom: 1px solid $night-border-color;
+
+    }
+  }
+  

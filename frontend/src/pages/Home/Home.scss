@@ -1,0 +1,55 @@
+.home {
+  padding: $padding;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: $padding; // Optionnel, permet d'ajuster l'espace entre l'image et le texte
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+      img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;    
+        @media (min-width: 768px){
+          width: 300px;
+          height: 300px;    
+        }
+
+      }
+  
+      @media (min-width: 768px) {
+        flex-direction: row;
+      }
+
+    &__title {
+
+
+      &--subtitle {
+        font-size: 1.5rem !important;
+      }
+    }
+  }
+
+  &__skills {
+    display: flex;
+    flex-direction: column;
+    padding: $padding;
+
+
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+
+    }
+  }
+}
+
+
+.lang p, .affinity p {
+  font-weight: 700;
+}
+
+
+

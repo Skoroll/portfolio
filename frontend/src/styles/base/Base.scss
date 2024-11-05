@@ -1,0 +1,148 @@
+@import "../abstracts/variables.scss";
+
+body {
+  background: $primary;
+  color: $primary-text;
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+  margin-top: 80px;
+}
+
+a {
+  color: $accent-primary;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  color: $accent-primary;
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-size: 30px;
+  color: $accent-primary;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 500;
+  color: $accent-secondary;
+}
+
+
+.CV_and_works{
+    display: flex;
+    flex-direction: column;
+    
+    @media (min-width: 768px){
+        flex-direction: row;
+
+        .works, .CV_div{
+            width: 50%;
+        }
+    }
+}
+
+/* Animation de base pour l'opacité (fade-in) et le glissement */
+@keyframes slideLeftToRight {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideRightToLeft {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+body.night-mode{
+  .section--heading{
+      background-color: $night-border-color;
+
+  }
+}
+
+.section--heading{
+  background: $border-color;
+padding: $border-radius;
+border-radius: $border-radius;
+margin: $border-radius;
+font-weight: 700;
+font-size: 25px;
+}
+
+
+body.night-mode {
+  background-color: $night-primary;
+  color: $night-primary-text;
+
+  .works__card{
+    background-color:$night-border-color;
+  }
+
+  .night {
+    .fa-solid {
+      color: $night-primary-text;
+    }
+    .fa-sun {
+      color: $night-accent-secondary;
+    }
+
+    .fa-moon {
+      color: $accent-primary;
+    }
+
+    &__switch {
+      background-color: $night-primary;
+      border-color: $night-border-color;
+
+      &--btn {
+        background-color: $night-accent-secondary;
+        border-color: $night-border-color;
+      }
+    }
+  }
+
+  button {
+    background-color: $night-button-bg;
+    color: $night-button-color;
+
+    &:hover {
+      background-color: $night-accent-secondary;
+    }
+  }
+
+  input, textarea {
+    border: 1px solid $night-border-color;
+
+    &:focus {
+      border-color: $night-focus-border-color;
+    }
+  }
+}

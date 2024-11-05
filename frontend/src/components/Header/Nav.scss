@@ -1,0 +1,105 @@
+.nav {
+  margin-left: auto;
+  margin-right: 20px;
+
+  i.fa-bars {
+    display: block; // Affiche le bouton "bars" par défaut (mobile)
+    cursor: pointer;
+    position: relative;
+    font-size: 25px;
+  }
+
+  &__ul {
+    position: absolute;
+    right: 55px;
+    top: 35px;
+    opacity: 0; // Opacité initiale
+    max-height: 0; // Hauteur initiale
+    overflow: hidden; // Cache le contenu débordant
+    padding: 0;
+    list-style: none;
+    gap: 25px;
+    padding: 5px;
+    transition: opacity 0.3s ease, max-height 0.3s ease; // Transitions pour l'opacité et la hauteur
+
+    &--open {
+      position: absolute;
+      right: 55px;
+      top: 35px;
+      opacity: 1; // Opacité à 1 lorsque ouvert
+      max-height: 500px; // Ajustez la valeur selon le contenu
+      display: flex; // Affiche la liste
+      flex-direction: column;
+      background: $primary;
+      border: $default-border;
+      z-index: 999;
+      border-radius: 15px 0 15px 15px;
+      text-align: center;
+
+      li:hover {
+        border-top: $default-border;
+      }
+    }
+
+    @media (min-width: 768px) {
+      position: relative;
+      top: 0;
+      right: 0;
+      display: flex;
+      flex-direction: row; // Affiche la navigation sur les grands écrans (desktop)
+      gap: 20px;
+      border: none;
+      border-top: $border-transparent;
+      max-height: fit-content;
+      opacity: 100;
+
+      &--open {
+        display: flex; // Toujours affiché en desktop
+      }
+    }
+  }
+
+  li {
+    padding: $padding;
+    border-bottom: $border-transparent;
+    border-top: $border-transparent;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    @media (min-width: 768px) {
+      transition: border-bottom 1.5s;
+    }
+  }
+
+  li:hover {
+    border-bottom: $default-border;
+    cursor: pointer;
+
+    &:first-child {
+      border-top: $border-transparent;
+    }
+
+    &:last-child {
+      border-bottom: $border-transparent;
+      border-top: $border-transparent;
+    }
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  @media (min-width: 768px) {
+    i.fa-bars {
+      display: none; // Cache le bouton "bars" sur les grands écrans
+    }
+  }
+}
+
+body.night-mode {
+  .nav__ul--open {
+    background-color: $night-primary;
+  }
+}

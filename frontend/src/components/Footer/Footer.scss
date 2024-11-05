@@ -1,0 +1,108 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: $padding;
+  height: 170px;
+  margin-top: 50px;
+  border-top: $default-border $border-color;
+  justify-content: center;
+  @media (min-width: 768px){
+    justify-content: space-between;
+  }
+
+  .footer__div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 200px;
+    
+    @media (min-width: 768px){
+      width: 25%;
+    }
+
+    h3 {
+      margin: 0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      gap: 10px;
+
+      li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0;
+        padding: 5px;
+        @media (min-width: 768px){
+          gap: 5px;
+        }
+
+        a {
+          display: flex;
+          gap: 5px;
+          align-items: baseline;
+          text-decoration: none;
+          color: $primary-text;
+        }
+        i {
+          margin-right: 5px; // Pour s'assurer que les icônes ont un espacement
+        }
+      }
+    }
+  }
+
+  // Par défaut, on cache les liens pour mobile
+  .footer__links--mobile {
+    display: none;
+  }
+
+  // Par défaut, on affiche les liens pour les écrans plus larges
+  .footer__links--link {
+    display: block;
+  }
+
+  // Sur les petits écrans, on inverse
+  @media (max-width: 768px) {
+    .footer__links--link {
+      display: none; // Cache les liens avec texte sur mobile
+    }
+
+    .footer__links--mobile {
+      display: flex; // Affiche uniquement les icônes sur mobile
+      
+      
+      a{
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+
+body.night-mode {
+  .footer {
+    background-color: $night-accent-secondary;
+    color: $night-primary-text;
+    border-top: 1px solid $night-border-color;
+    h3{
+      color: $night-primary-text;
+    }
+    .footer__div {
+      a {
+        color: $night-primary-text;
+      }
+    }
+  }
+}
+
+.footer-link{
+  cursor: pointer;
+  border-bottom: $default-border transparent;
+  transition: border-bottom 0.5s;
+
+  &:hover{
+    border-bottom: $default-border;
+  }
+}

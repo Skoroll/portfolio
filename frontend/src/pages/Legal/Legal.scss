@@ -1,0 +1,25 @@
+.legal{
+    padding: $page_padding;
+
+    &--answer{
+        margin-top: 0;
+        
+    }
+
+    &--wrapper{
+        display: flex;
+        justify-content: center;
+    }
+
+    &--text{
+        display: flex;
+        justify-content: space-between;
+        width: 550px;
+    }    
+    &--title{
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+
+
+}

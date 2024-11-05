@@ -1,0 +1,78 @@
+@import "../../styles/abstracts/variables.scss";
+
+.works {
+  &--ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  &__card {
+    width: 100%;
+    padding: $padding;
+    border-radius: $border-radius;
+    background-color: $button-color;
+    cursor: pointer;
+
+    &:hover{
+      opacity: 0.8;
+      transform: (scale(1.01));
+    }
+
+    @media (min-width: 768px) {
+      width: 300px;
+    }
+
+    &--heading {
+      font-size: 20px;
+      text-align: center;
+      font-weight: 500;
+      font-size: 25px;
+      color: $accent-secondary;
+      margin: 0;
+      padding: $padding-elem;
+    }
+
+    &--cover {
+      width: 100%;
+      height: 250px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: calc($border-radius * 2);
+    }
+
+    &--why {
+      width: 100%;
+      font-style: italic;
+      margin: 10px 0;
+    }
+
+    &--content {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    &--tools {
+      display: flex;
+      gap: 10px;
+      margin: auto;
+      margin-top: 10px;
+      align-items: baseline;
+
+      .tool {
+        background-color: $accent-secondary;
+        padding: $padding-elem;
+        border-radius: $border-radius;
+        color: $night-primary-text;
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Booki", 
+    "tools": "HTML, CSS, Media queries", 
+    "description": "Projet de ma formation, le but était de créer la page principale d'un site de type 'AirBnB' en utilisant du HTML et du CSS basique, en suivant les instructions données et une maquette Figma. Le site devait offrir un affichage dynamique suivant le type d'appareil utilisé (desktop/tablette/mobile).", 
+    "cover": "https://i.ibb.co/MRHqCyh/5st.png",
+    "images": [ "https://i.ibb.co/s5hkMpn/1st.png", "https://i.ibb.co/L5JYZWs/2nd.png", "https://i.ibb.co/18wCsWz/3rd.png", "https://i.ibb.co/jJtMCJ6/4st.png", "https://i.ibb.co/MRHqCyh/5st.png", "https://i.ibb.co/MZkLN8M/6st.png" ],
+    "why": "Projet de formation" 
+  },
+  {
+    "id": 2,
+    "name": "Kasa",
+    "tools": "React",
+    "description": "",
+    "cover": "https://i.ibb.co/nCJ1Sg6/Kasa1.png",
+    "images": ["https://i.ibb.co/nCJ1Sg6/Kasa1.png", "https://i.ibb.co/kMzpPx4/Kasa2.png", "https://i.ibb.co/mvQN68S/Kasa3.png", "https://i.ibb.co/6syvMW9/Kasa4.png" ],
+    "why": "Projet de formation"
+  },
+  {
+    "id": 3,
+    "name": "Nina Carducchi",
+    "tools": "Optimistion, Débuggage, SEO",
+    "description": "Autre projet de ma formation, j'ai du débugger, optimiser les performance et améliorer le référencement du site d'une cliente. De plus j'ai du faire un rapport d'intervention, détaillant précisement les tâches effectués, en les justifiants et en documentants les actions faites.",
+    "cover": "https://i.ibb.co/rfch0Tp/codeSEO1.png",
+    "images": ["https://i.ibb.co/rfch0Tp/codeSEO1.png", "https://i.ibb.co/8YxY4dv/codeSEO2.png", "https://i.ibb.co/fd5j8jQ/Nina-Score.png" ],
+    "why": "Projet de formation"
+  }
+]

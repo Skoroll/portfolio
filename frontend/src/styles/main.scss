@@ -1,0 +1,22 @@
+@import "./abstracts/functions.scss";
+@import "./abstracts/mixins.scss";
+@import "./abstracts/variables.scss";
+
+@import "../components/Header/Header.scss";
+@import "../components/Header/Nav.scss";
+@import "../components/Footer/Footer.scss";
+@import "../components/Header/Modal.scss";
+@import "../components/Header/NightButton.scss";
+@import "../pages/CV/CvModal.scss";
+
+@import "./base//Base.scss";
+
+
+@import "../pages/Home/Home.scss";
+@import "../components/Bars/Bars.scss";
+@import "../pages/Contact/Contact.scss";
+@import "../pages/CV/CV.scss";
+@import "../pages/Who/Who.scss";
+@import "../pages/Work/Works.scss";
+@import "../pages/Admin/Admin.scss";
+@import "../pages/Legal/Legal.scss";

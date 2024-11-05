@@ -1,0 +1,95 @@
+.contact{
+  padding: 0;
+
+  span{
+    font-weight: 900;
+  }
+
+  strong{
+    font-weight: 100;
+  }
+  
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: $padding;
+  max-width: 600px; 
+  margin: 0 auto; 
+  padding: $padding;
+  border: $border-color $primary-text; 
+  border-radius: 8px;
+  background-color: $primary; 
+}
+
+.form_imput_div {
+  display: flex;
+  gap: $padding;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: $padding;
+  border: $border-color ; /* Utilise les variables pour la bordure */
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+
+
+  &:focus {
+    border-color: $focus-border-color;
+    outline: none;
+  }
+}
+
+textarea {
+  min-height: 300px; /* Hauteur minimale du textarea */
+}
+
+button {
+
+  background-color: $button-bg;
+  color: $button-color;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: $primary;
+
+  &:hover {
+    background-color: $button-hover-bg;
+  }
+}
+
+
+.contact__title{
+  width: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+body.night-mode {
+  .modal__content, form{
+    background: $night-primary;
+
+    input, textarea{
+      background-color: $night-border-color;
+      color: $night-primary-text;
+      
+      
+    }
+  }
+}
+
+
+@media (min-width: 768px) {
+  .contact{
+    padding: $page_padding;
+  }
+}

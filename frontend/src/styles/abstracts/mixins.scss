@@ -1,0 +1,15 @@
+@mixin progress-bar($color, $duration, $width) {
+  width: 0;
+  height: 100%;
+  background-color: $color;
+  animation: fill-bar $duration ease-in-out forwards;
+
+  @keyframes fill-bar {
+    from {
+      width: 0;
+    }
+    to {
+      width: $width; /* Utilisation explicite de la largeur en pixels */
+    }
+  }
+}

@@ -1,0 +1,135 @@
+.progress-bar {
+  width: 95%; /* Le parent prend toute la largeur disponible */
+  background-color: $border-color;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Barres pour les langues */
+.progress-fr,
+.progress-en,
+.progress-de {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: $accent-primary;
+  animation: fill-bar ease-in-out forwards;
+}
+
+.progress-fr {
+  animation-duration: 2.5s;
+  --target-width: 95%;
+}
+
+.progress-en {
+  animation-duration: 3s;
+  --target-width: 65%;
+}
+
+.progress-de {
+  animation-duration: 3s;
+  --target-width: 15%;
+}
+
+/* Barres pour les affinités */
+.progress-front,
+.progress-back,
+.progress-opti,
+.progress-plan,
+.progress-html,
+.progress-css,
+.progress-js,
+.progress-react {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: $accent-primary;
+  animation: fill-bar ease-in-out forwards;
+}
+
+/* Largeurs spécifiques aux compétences */
+.progress-front {
+  animation-duration: 2.5s;
+  --target-width: 100%; /* Exemple pour Front-End */
+}
+
+.progress-back {
+  animation-duration: 2.5s;
+  --target-width: 40%; /* Exemple pour Back-End */
+}
+
+.progress-opti {
+  animation-duration: 2.5s;
+  --target-width: 90%; /* Exemple pour Optimisation */
+}
+
+.progress-plan {
+  animation-duration: 2.5s;
+  --target-width: 70%; /* Exemple pour Planification */
+}
+
+.progress-html {
+  animation-duration: 2.5s;
+  --target-width: 100%; /* Largeur spécifique pour HTML */
+}
+
+.progress-css {
+  animation-duration: 2.5s;
+  --target-width: 100%; /* Largeur spécifique pour CSS */
+}
+
+.progress-js {
+  animation-duration: 3s;
+  --target-width: 90%; /* Largeur spécifique pour JavaScript */
+}
+
+.progress-react {
+  animation-duration: 3s;
+  --target-width: 100%; /* Largeur spécifique pour React */
+}
+
+/* Animation de remplissage */
+@keyframes fill-bar {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(
+      --target-width
+    ); /* Utilise la variable CSS pour définir la largeur finale */
+  }
+}
+
+.bars-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 768px){
+    width: 50%;
+  }
+
+
+  p {
+    font-weight: 700;
+    margin: 10px 0 5px 0;
+    display: flex;
+    gap: 5px;
+  }
+  .code-affinity {
+    display: flex;
+
+    &__column {
+      width: 100%;
+    }
+  }
+  .lang__detail {
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

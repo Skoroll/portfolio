@@ -1,0 +1,44 @@
+.night {
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 10px;
+  
+    &__switch {
+      position: relative;
+      width: 50px;
+      height: 20px;
+      border: $default-border $border-color;
+      cursor: pointer;
+      background-color: $primary;
+      border-radius: $border-radius;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; 
+      padding: 0 5px; 
+      
+
+
+      .fa-solid {
+        font-size: 16px;
+        transition: transform 0.3s ease, color 0.3s ease; // Animation de glissement et de changement de couleur
+        transform: translateX(0); // Position initiale (à gauche)
+      }
+  
+      .fa-sun {
+        color: $accent-secondary; // Couleur pour le soleil
+      }
+  
+      .fa-moon {
+        color: $accent-primary; // Couleur pour la lune
+      }
+  
+      &--active .fa-solid {
+        transform: translateX(30px); // Glissement à droite (à ajuster selon la largeur du switch)
+      }
+    }
+  }
+  
+
+  
