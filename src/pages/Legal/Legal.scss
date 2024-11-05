@@ -8,12 +8,23 @@
 
     &--wrapper{
         display: flex;
+        flex-direction: column;
         justify-content: center;
+
+        div{
+            width: 50%;
+            margin: auto;
+            text-align: center;
+        }
+
+        @media (min-width: 768px){
+            flex-direction: row;
+        }
     }
 
     &--text{
-        display: flex;
-        justify-content: space-between;
+        display: inline;
+
         width: 550px;
     }    
     &--title{
@@ -21,5 +32,8 @@
         margin-bottom: 0;
     }
 
+    &__info{
+        text-align: center;
+    }
 
 }
