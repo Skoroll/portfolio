@@ -59,13 +59,14 @@ const collapseData = [
         Cette formation débutant de mars à novembre 2024 m'a fait découvrir plusieurs 
         aspects du travail de développeur :
         <ul>
-          <li> Des bases solide en HTML </li>
-          <li> Des bases avancée en CSS/SASS </li>
-          <li> Une première approche des animations en CSS </li>
-          <li> Une meilleure compréhension de Javascript </li>
-          <li> Des bases solide en React </li>
-          <li> Des notions de management </li>
-          <li> Les bases du back-end </li>
+          <li> Des bases solide en <strong>HTML</strong>, </li>
+          <li> Des bases avancée en <strong>CSS/SASS</strong>, </li>
+          <li> Une première approche des <strong>animations en CSS</strong>, </li>
+          <li> Une meilleure compréhension de <strong>Javascript</strong>, </li>
+          <li> Des bases solide en <strong>React</strong>, </li>
+          <li> Des notions de <strong>management</strong>, </li>
+          <li> Les bases du <strong>back-end</strong>, </li>
+          <li> De solides notions <strong>d'optimisation et de SEO</strong>.</li>
         </ ul>
       </p>
         `
@@ -80,19 +81,21 @@ const collapseData = [
     { 
       title: 'Passion', 
       content: `
-        Passionné par la musique, avec des goûts très éclectiques, 
-        j'ai quelques années d'expérience en tant que bassiste dans des groupes.
+        Passionné par la <strong>musique</strong>, avec des goûts très éclectiques, 
+        j'ai quelques années d'expérience en tant que <strong>bassiste</strong> dans des groupes(le dernier en date : <a target="_blank" rel="noreferrer"  href="https://www.youtube.com/watch?v=b6iwTz9IA_I">Davyn</a>).
         <br />
-        Cette expérience m'a permis de développer des compétences en travail de groupe,
-         notamment dans la gestion des conflits, et m'a aussi aidé à développer mes 
-         compétences sociales.
+        Cette expérience m'a permis de développer <strong>des compétences en travail de groupe</strong>,
+         notamment dans la <strong>gestion des conflits</strong>, et m'a aussi aidé à développer mes 
+         <strong>compétences sociales</strong>.
         <p>
-        Je suis passionné par les jeux vidéo, et depuis quelques années je m'intéresse 
-        beaucoup à tout ce qui touche l'UI, l'UX, et les logiques de game design.
+        Je suis passionné par les <strong>jeux vidéo</strong>, et depuis quelques années je m'intéresse 
+        beaucoup à tout ce qui touche <strong>l'UI, l'UX</strong>, et les logiques de <strong>game design</strong>.
         </p>
         <p> 
         À côté de cela, j'ai plusieurs centres d'intérêt, comme la course à 
         pied, l'histoire, l'architecture, et l'urbanisme.
+        <br />
+        Je suis aussi un grand amoureux des animaux.
         </p>
       `
     }

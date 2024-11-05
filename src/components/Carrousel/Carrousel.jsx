@@ -18,7 +18,7 @@ function Carrousel({ images }) {
       <img
         className="carrousel__image"
         src={images[currentIndex]}
-        alt={`Image ${currentIndex + 1}`}
+        alt={`${currentIndex + 1}`}
       />
       <button className="carrousel__btn--next" onClick={nextSlide} aria-label="Image suivante">{<i className="fa-solid fa-arrow-right"></i>}</button>
     </div>

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "../../styles/main.scss";
-import { Link } from "react-router-dom";
+
 
 function Legal() {
   useEffect(() => {
