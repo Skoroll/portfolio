@@ -4,7 +4,7 @@ import AffinityBars from "../../components/Bars/AffinityBars";
 import Who from "../Who/Who";
 import CV from "../CV/CV";
 import Works from "../Work/Works";
-import profilePicture from "../../assets/profile/eef9b252d31e0b75065cfc0b65ca3545.webp";
+import profilePicture from "../../assets/profile/10.26.00_87e200d3.webp";
 
 function Home() {
   useEffect(() => {
@@ -22,9 +22,7 @@ function Home() {
           <h1 className="home__title--main">
             Yann GICQUEL, développeur web front-end
           </h1>
-          {/*<h2 className="home__title--subtitle">
-            Orienté React et accessibilité
-          </h2>*/}
+
         </div>
       </div>
 

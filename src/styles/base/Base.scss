@@ -43,67 +43,77 @@ h3 {
   color: $accent-secondary;
 }
 
+.CV_and_works {
+  display: flex;
+  flex-direction: column;
 
-.CV_and_works{
-    display: flex;
-    flex-direction: column;
-    
-    @media (min-width: 768px){
-        flex-direction: row;
+  @media (min-width: 768px) {
+    flex-direction: row;
 
-        .works, .CV_div{
-            width: 50%;
-        }
+    .works,
+    .CV_div {
+      width: 50%;
     }
+  }
+}
+.footer {
+  ul {
+    li {
+      a {
+        border-bottom: $border-transparent;
+        transition: $transition-border-bottom;
+        &:hover {
+          border-bottom: $default-border;
+        }
+      }
+    }
+  }
 }
 
 /* Animation de base pour l'opacité (fade-in) et le glissement */
 @keyframes slideLeftToRight {
-    from {
-        opacity: 0;
-        transform: translateX(-100px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-@keyframes slideRightToLeft {
-    from {
-        opacity: 0;
-        transform: translateX(100px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-
-body.night-mode{
-  .section--heading{
-      background-color: $night-border-color;
-
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 
-.section--heading{
-  background: $border-color;
-padding: $border-radius;
-border-radius: $border-radius;
-margin: $border-radius;
-font-weight: 700;
-font-size: 25px;
+@keyframes slideRightToLeft {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
+body.night-mode {
+  .section--heading {
+    background-color: $night-border-color;
+  }
+}
+
+.section--heading {
+  background: $border-color;
+  padding: $border-radius;
+  border-radius: $border-radius;
+  margin: $border-radius;
+  font-weight: 700;
+  font-size: 25px;
+}
 
 body.night-mode {
   background-color: $night-primary;
   color: $night-primary-text;
 
-  .works__card{
-    background-color:$night-border-color;
+  .works__card {
+    background-color: $night-border-color;
   }
 
   .night {
@@ -138,7 +148,8 @@ body.night-mode {
     }
   }
 
-  input, textarea {
+  input,
+  textarea {
     border: 1px solid $night-border-color;
 
     &:focus {

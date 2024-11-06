@@ -1,0 +1,21 @@
+@import "../../styles/abstracts/variables.scss";
+.not-found{
+    text-align: center;
+    &--heading{
+        font-size: 40px;
+        color: $accent-primary;
+        
+    }
+
+    .fa-face-frown{
+        color: $accent-primary;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    a{
+        display: inline-block;
+        width: 100%;
+
+    }
+}

@@ -1,10 +1,15 @@
 .progress-bar {
-  width: 95%; /* Le parent prend toute la largeur disponible */
+  position: relative;
+  width: 95%; 
   background-color: $border-color;
-  height: 10px;
+  height: 20px;
   border-radius: 5px;
   overflow: hidden;
   position: relative;
+
+  &:hover .progress-label {
+    display: flex; /* Devient visible au survol de .progress-bar */
+  }
 }
 
 /* Barres pour les langues */
@@ -17,6 +22,19 @@
   left: 0;
   background-color: $accent-primary;
   animation: fill-bar ease-in-out forwards;
+}
+
+.progress-label{
+  display: none;
+  position: absolute;
+  margin: 0 ;
+  height: 100%;
+  z-index: 999;
+  color: $night-primary-text;
+  align-items: center;
+  padding-left: 10px ;
+  width: 100%;
+  background: rgba(143, 143, 143, 0.253);
 }
 
 .progress-fr {
@@ -113,7 +131,7 @@
   }
 
 
-  p {
+  .lang-__title, .affinity__title {
     font-weight: 700;
     margin: 10px 0 5px 0;
     display: flex;
@@ -131,5 +149,8 @@
       width: 20px;
       height: 20px;
     }
+  }
+  .lang__answer{
+    padding-left: 30px;
   }
 }

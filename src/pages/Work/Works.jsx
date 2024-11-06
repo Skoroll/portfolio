@@ -5,8 +5,8 @@ import WorksCards from "../../components/WorksCards/WorksCards";
 function Works() {
   return (
     <div className="works">
-        <h2>Les travaux</h2>
-        <p className="section--heading">Mes projet de formations proviennents tous d'<a target="_blank" rel="noreferrer"  href="https://openclassrooms.com/fr/paths/899-developpeur-web">OpenClassRooms</a></p>
+        <h2>Travaux</h2>
+        <p className="section--heading">Mes projets de formation proviennent tous d'<a target="_blank" rel="noreferrer" href="https://openclassrooms.com/fr/paths/899-developpeur-web">OpenClassrooms</a></p>
       <div className="works__list">
         <ul className="works--ul">
           {myWorks.map((works) => (
