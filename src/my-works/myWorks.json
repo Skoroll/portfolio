@@ -4,8 +4,8 @@
     "page":"booki",
     "name": "Booki", 
     "tools": "HTML, CSS, Media queries", 
-    "need": "Projet de ma formation, l'objectif était de créer la page principale d'un site de type 'Airbnb'. <br /> Cette page devait proposer un design responsive (qui s'adapte) pour desktop, tablette, mobile. <br /> Il fallait ensuite présenter ce travail, justifier les choix techniques et la mise en pratique du code.", 
-    "solution": "En utilisant une maquette fournie via Figma, j'ai fais le découpage et l'interprétation de celle-ci, ce qui s'est traduit par une utilisation intelligente et appropriée de diverses div pour correctement adapter mes medias queries ensuite pour adapter l'affichage aux écrans.",
+    "need": "Projet de ma formation, l'objectif était de créer la page principale d'un site de type 'Airbnb'. Cette page devait proposer un design responsive (qui s'adapte) pour desktop, tablette et mobile. Ensuite, il fallait présenter ce travail, justifier les choix techniques et expliquer la mise en pratique du code.", 
+    "solution": "En utilisant une maquette fournie via Figma, j'ai effectué le découpage et l'interprétation de celle-ci, ce qui s'est traduit par une utilisation intelligente et appropriée de diverses div pour ensuite adapter mes media queries afin d'assurer un affichage optimal sur tous les écrans.",
     "cover": "https://i.ibb.co/MRHqCyh/5st.png",
     "images": ["https://i.ibb.co/s5hkMpn/1st.png", "https://i.ibb.co/L5JYZWs/2nd.png", "https://i.ibb.co/18wCsWz/3rd.png", "https://i.ibb.co/jJtMCJ6/4st.png", "https://i.ibb.co/MRHqCyh/5st.png", "https://i.ibb.co/MZkLN8M/6st.png"],
     "why": "Projet de formation" 
@@ -15,8 +15,8 @@
     "page":"Kasa",
     "name": "Kasa",
     "tools": "React",
-    "need": "Créer un site entier de location d'appartement. Le concept est de mettre en relation propriétaires et futur locataires. <br /> L'affichage des cartes et des donnés des appartements devait être dynamiques (c'est à dire requérir le moins d'intervention possible pour afficher les donnés). <br/> Le site devait être totalement fonctionnel en fin de projet, je devais être capable de justifier tous les choix techniques.",
-    "solution": "Le site à été crée avec React, je me suis basé sur la maquette fournie. <br/> Le site a demandé plusieurs composants réutilisables, j'ai aussi du mettre en place les différentes routes, ainsi qu'une route de récupération (404) en cas de problèmes d'URL. <br/>J'ai aussi appris à créer des composants utilisant différents hook afin de gérer les états.",
+    "need": "Créer un site complet de location d'appartements. Le concept est de mettre en relation propriétaires et futurs locataires. L'affichage des cartes et des données des appartements devait être dynamique, c'est-à-dire nécessiter le moins d'intervention possible pour afficher les données. Le site devait être totalement fonctionnel à la fin du projet, et je devais être capable de justifier tous les choix techniques.",
+    "solution": "Le site a été créé avec React, en se basant sur la maquette fournie. Le site a nécessité plusieurs composants réutilisables, et j'ai également dû mettre en place les différentes routes, ainsi qu'une route de récupération (404) en cas de problème d'URL. J'ai aussi appris à créer des composants utilisant différents hooks afin de gérer les états.",
     "cover": "https://i.ibb.co/nCJ1Sg6/Kasa1.png",
     "images": ["https://i.ibb.co/nCJ1Sg6/Kasa1.png", "https://i.ibb.co/kMzpPx4/Kasa2.png", "https://i.ibb.co/mvQN68S/Kasa3.png", "https://i.ibb.co/6syvMW9/Kasa4.png"],
     "why": "Projet de formation"
@@ -26,8 +26,8 @@
     "page":"Nina",
     "name": "Nina Carducchi",
     "tools": "Optimisation, Débogage, SEO",
-    "need": "Le site d'une photographe avait 2 bugs, de mauvaises performances techniques et des problèmes de SEO (Search Engine Optimisation = Optimisation des moteurs de recherches).<br/>Le but ici était d'améliorer le tout, tant au niveau technique que du référencement. Pour se faire j'ai utilisé Lighthouse, le plug-in Wave, Twitter Card, Open Graph, Rich Snippet ",
-    "solution": "J'ai établi un rapport d'intervention détaillant les modifications apportée. Pour la partie technique j'ai changé le format des photos (de jpg à webp) pour quelles soient plus légère sans perte de qualité et s'affichent plus vite. La taille des images a aussi été réduite, là aussi pour réduire le temps d'affichage. <br/>La minification des feuilles CSS et JS ont aidé à la vitesse d'affichage du site.<br/>L'ajout d'un <i>defer</i> sur les pages JS pour que les scripts se lancent après le chargement du HTML.<br/> Mes différentes modifications ont permis de passer d'une note Lighthouse de <b>88, 68, 100, 70 à 95</b>, <b>100, 100, 100</b>.",
+    "need": "Le site d'une photographe présentait deux bugs, de mauvaises performances techniques et des problèmes de SEO (Search Engine Optimization = optimisation pour les moteurs de recherche). Le but était ici d'améliorer le tout, tant au niveau technique qu'au niveau du référencement. Pour ce faire, j'ai utilisé Lighthouse, le plug-in Wave, Twitter Card, Open Graph et les Rich Snippets.",
+    "solution": "J'ai établi un rapport d'intervention détaillant les modifications apportées. Pour la partie technique, j'ai changé le format des photos (de JPG à WEBP) pour qu'elles soient plus légères sans perte de qualité et s'affichent plus rapidement. La taille des images a aussi été réduite, également pour accélérer le temps d'affichage. La minification des fichiers CSS et JS a amélioré la vitesse d'affichage du site. L'ajout d'un <i>defer</i> sur les pages JS a permis de lancer les scripts après le chargement du HTML. Mes différentes modifications ont permis d'améliorer la note Lighthouse, passant de <b>88, 68, 100, 70</b> à <b>95, 100, 100, 100</b>.",
     "cover": "https://i.ibb.co/rfch0Tp/codeSEO1.png",
     "images": ["https://i.ibb.co/rfch0Tp/codeSEO1.png", "https://i.ibb.co/8YxY4dv/codeSEO2.png", "https://i.ibb.co/fd5j8jQ/Nina-Score.png"],
     "why": "Projet de formation"

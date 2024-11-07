@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Link as ScrollLink } from "react-scroll"; // Import de Link de react-scroll
-import { Link, useNavigate, useLocation } from "react-router-dom"; // Import du Link et des hooks de react-router-dom
+import { Link as ScrollLink, scroller } from "react-scroll"; // Import de Link et scroller de react-scroll
+import { Link, useNavigate, useLocation } from "react-router-dom"; // Import de Link et des hooks de react-router-dom
 import "../../styles/main.scss";
 import Contact from "../../pages/Contact/Contact";
 
@@ -37,26 +37,46 @@ function Nav() {
     closeNav(); // Ferme la navigation après le clic
   }
 
+  function handleNavClick(section) {
+    if (location.pathname === "/") {
+      // Si déjà sur la page d'accueil, scroll directement
+      scroller.scrollTo(section, {
+        smooth: true,
+        duration: 500,
+      });
+    } else {
+      // Sinon, navigue vers la page d'accueil et attend avant de scroll
+      navigate("/");
+      setTimeout(() => {
+        scroller.scrollTo(section, {
+          smooth: true,
+          duration: 500,
+        });
+      }, 100); // délai pour assurer le scroll après le chargement de la page
+    }
+    closeNav(); // Ferme la navigation après le clic
+  }
+
   return (
     <>
       <nav className="nav">
         <i className="fa-solid fa-bars" onClick={navOpen}></i> {/* Ajout du gestionnaire de clic */}
         <ul className={`nav__ul ${isOpen ? "nav__ul--open" : ""}`}> {/* Ajout de la classe conditionnelle */}
           <li>
-            <Link to="/" onClick={handleHomeClick} >Accueil</Link> {/* Utilisation du bouton pour gérer le clic */}
+            <Link to="/" onClick={handleHomeClick}>Accueil</Link> {/* Utilisation du bouton pour gérer le clic */}
           </li>
           <li>
-            <ScrollLink to="who" smooth={true} duration={500} onClick={closeNav}>
+            <ScrollLink to="who" smooth={true} duration={500} onClick={() => handleNavClick("who")}>
               Qui suis-je
             </ScrollLink>
           </li>
           <li>
-            <ScrollLink to="works" smooth={true} duration={500} onClick={closeNav}>
+            <ScrollLink to="works" smooth={true} duration={500} onClick={() => handleNavClick("works")}>
               Travaux
             </ScrollLink>
           </li>
           <li>
-            <ScrollLink to="cv" smooth={true} duration={500} onClick={closeNav}>
+            <ScrollLink to="cv" smooth={true} duration={500} onClick={() => handleNavClick("cv")}>
               CV
             </ScrollLink>
           </li>
