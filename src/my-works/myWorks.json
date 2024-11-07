@@ -31,5 +31,16 @@
     "cover": "https://i.ibb.co/rfch0Tp/codeSEO1.png",
     "images": ["https://i.ibb.co/rfch0Tp/codeSEO1.png", "https://i.ibb.co/8YxY4dv/codeSEO2.png", "https://i.ibb.co/fd5j8jQ/Nina-Score.png"],
     "why": "Projet de formation"
+  },
+  {
+    "id": 4,
+    "page":"Grimoire",
+    "name": "Mon Vieux Grimoire",
+    "tools": "Node.js, Express, MongoDB",
+    "need": "Créer le back-end d'un site de notation de livre, la partie front existait déjà. Il fallait créer une API Rest, la faire communiquer avec une base de donnés et mettre un système de login en place.<br/>Une fois fait, les livres devaient pouvoir être noté par les utilisateurs, les cartes des livres devaient renvoyer vers les détails de l'oeuvre et montrer les livres les mieux notés du site.",
+    "solution": "J'ai crée un serveur en utilisant Node.js et Express.<br/>L'API devait permettre de créer un compte et s'identifier, créer, modifier, supprimer un livre et noter des oeuvres. Elle devait aussi, bien sûr, permettre de récupérer les livres stocké sur la base de donnés.<br/>Côté base de donné, c'est MongoDB qui a été utilisé.<br/>En terme de sécurité j'ai ajouté bcrypt, helmet, express rate limit.",
+    "cover": "https://i.ibb.co/T1shcFz/grimoire1.png",
+    "images": ["https://i.ibb.co/T1shcFz/grimoire1.png","https://i.ibb.co/dKsmds3/grimoire2.png", "https://i.ibb.co/Qfny7qq/grimoire3.png", "https://i.ibb.co/yPCTq2Y/grimoire4.png"],
+    "why": "Projet de formation"
   }
 ]
