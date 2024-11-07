@@ -9,6 +9,18 @@
     justify-content: space-between;
   }
 
+    ul {
+      li {
+        a {
+          border-bottom: $border-transparent;
+          transition: $transition-border-bottom;
+          &:hover {
+            border-bottom: $default-border;
+          }
+        }
+      }
+    }
+
   .footer__div {
     display: flex;
     flex-direction: column;

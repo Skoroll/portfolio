@@ -56,19 +56,7 @@ h3 {
     }
   }
 }
-.footer {
-  ul {
-    li {
-      a {
-        border-bottom: $border-transparent;
-        transition: $transition-border-bottom;
-        &:hover {
-          border-bottom: $default-border;
-        }
-      }
-    }
-  }
-}
+
 
 /* Animation de base pour l'opacité (fade-in) et le glissement */
 @keyframes slideLeftToRight {

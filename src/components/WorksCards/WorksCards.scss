@@ -67,12 +67,13 @@
       margin-top: 10px;
       align-items: baseline;
 
-      .tool {
-        background-color: $accent-secondary;
-        padding: $padding-elem;
-        border-radius: $border-radius;
-        color: $night-primary-text;
-      }
+
     }
   }
+}
+.tool {
+  background-color: $accent-secondary;
+  padding: $padding-elem;
+  border-radius: $border-radius;
+  color: $night-primary-text;
 }

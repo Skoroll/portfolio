@@ -6,7 +6,6 @@ import Contact from "./pages/Contact/Contact";
 import Works from "./pages/Work/Works";
 import CV from "./pages/CV/CV";
 import Who from "./pages/Who/Who"
-import Admin from "./pages/Admin/Admin";
 import Legal from "./pages/Legal/Legal";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import WorkDetail from "./pages/WorksDetails/WorksDetails"; 
@@ -25,7 +24,6 @@ function App() {
             <Route path="/works/:id" element={<WorkDetail />} />
             <Route path="/cv" element={<CV />} />
             <Route path="/who" element={<Who />} />
-            <Route path="/admin" element={<Admin />} />
             <Route path="/legal" element={<Legal />} />
           </Routes>
         </main>

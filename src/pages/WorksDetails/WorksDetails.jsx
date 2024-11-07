@@ -30,16 +30,32 @@ function WorkDetail() {
         <div className="work-detail__text">
           <p>
             <span className="work-detail__text--heading">Pourquoi :</span>{" "}
+            <br/>
             <span dangerouslySetInnerHTML={{ __html: work.why }} />
           </p>
-          <div dangerouslySetInnerHTML={{ __html: work.description }} />
-          <p className="works__card--tools">
+         <p>
+         <span className="work-detail__text--heading">Besoin :</span>{" "}
+         <br/>
+         <span dangerouslySetInnerHTML={{ __html: work.need }} />
+         </p>
+
+         <p>
+         <span className="work-detail__text--heading">Solution :</span>{" "}
+         <br/>
+         <span dangerouslySetInnerHTML={{ __html: work.solution }} />
+         </p>
+
+          <p className="work-detail__tools">
             <span className="work-detail__text--heading">Outils :</span>
+            <br/>
+            <span className="work-detail__tools--details">
             {work.tools.split(", ").map((tool, index) => (
               <span key={index} className="tool">
                 {tool}
               </span>
+       
             ))}
+            </span>
           </p>
         </div>
       </div>
