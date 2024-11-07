@@ -10,8 +10,9 @@ function WorksCards({ works }) {
   };
 
   return (
-    <li className="works__card" onClick={handleClick}>
-      <p className="works__card--heading">{works.name}</p>
+    <ul className="works__card" onClick={handleClick}>
+      <li className="works__card--heading">{works.name}</li>
+      <div className="works__card--wrapper">
       <div
         className="works__card--cover"
         style={{
@@ -20,16 +21,18 @@ function WorksCards({ works }) {
         aria-label={works.name}
       ></div>
       <div className="works__card--content">
-        <ul>
+       
           <li className="works__card--why">{works.why}</li>
+          <li className="works__card--short">{works.short}</li>
           <li className="works__card--tools">
             {works.tools.split(', ').map((tool, index) => (
               <span key={index} className="tool">{tool}</span>
-            ))}
+            ))} 
           </li>
-        </ul>
+     
       </div>
-    </li>
+      </div>
+    </ul>
   );
 }
 

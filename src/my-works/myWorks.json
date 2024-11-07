@@ -2,17 +2,19 @@
   {
     "id": 1,
     "page":"booki",
+    "short": "Créer une page d'un site type AirBnB",
     "name": "Booki", 
     "tools": "HTML, CSS, Media queries", 
     "need": "Projet de ma formation, l'objectif était de créer la page principale d'un site de type 'Airbnb'. Cette page devait proposer un design responsive (qui s'adapte) pour desktop, tablette et mobile. Ensuite, il fallait présenter ce travail, justifier les choix techniques et expliquer la mise en pratique du code.", 
     "solution": "En utilisant une maquette fournie via Figma, j'ai effectué le découpage et l'interprétation de celle-ci, ce qui s'est traduit par une utilisation intelligente et appropriée de diverses div pour ensuite adapter mes media queries afin d'assurer un affichage optimal sur tous les écrans.",
-    "cover": "https://i.ibb.co/MRHqCyh/5st.png",
+    "cover": "https://i.ibb.co/L5JYZWs/2nd.png",
     "images": ["https://i.ibb.co/s5hkMpn/1st.png", "https://i.ibb.co/L5JYZWs/2nd.png", "https://i.ibb.co/18wCsWz/3rd.png", "https://i.ibb.co/jJtMCJ6/4st.png", "https://i.ibb.co/MRHqCyh/5st.png", "https://i.ibb.co/MZkLN8M/6st.png"],
     "why": "Projet de formation" 
   },
   {
     "id": 2,
     "page":"Kasa",
+    "short": "Site de location d'appartements",
     "name": "Kasa",
     "tools": "React",
     "need": "Créer un site complet de location d'appartements. Le concept est de mettre en relation propriétaires et futurs locataires. L'affichage des cartes et des données des appartements devait être dynamique, c'est-à-dire nécessiter le moins d'intervention possible pour afficher les données. Le site devait être totalement fonctionnel à la fin du projet, et je devais être capable de justifier tous les choix techniques.",
@@ -24,6 +26,7 @@
   {
     "id": 3,
     "page":"Nina",
+    "short": "Débuggage, SEO et optimisation d'un site de photographe",
     "name": "Nina Carducchi",
     "tools": "Optimisation, Débogage, SEO",
     "need": "Le site d'une photographe présentait deux bugs, de mauvaises performances techniques et des problèmes de SEO (Search Engine Optimization = optimisation pour les moteurs de recherche). Le but était ici d'améliorer le tout, tant au niveau technique qu'au niveau du référencement. Pour ce faire, j'ai utilisé Lighthouse, le plug-in Wave, Twitter Card, Open Graph et les Rich Snippets.",
@@ -35,6 +38,7 @@
   {
     "id": 4,
     "page":"Grimoire",
+    "short": "Création du back-end d'un site de notation de livres.",
     "name": "Mon Vieux Grimoire",
     "tools": "Node.js, Express, MongoDB",
     "need": "Créer le back-end d'un site de notation de livre, la partie front existait déjà. Il fallait créer une API Rest, la faire communiquer avec une base de donnés et mettre un système de login en place.<br/>Une fois fait, les livres devaient pouvoir être noté par les utilisateurs, les cartes des livres devaient renvoyer vers les détails de l'oeuvre et montrer les livres les mieux notés du site.",

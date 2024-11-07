@@ -83,17 +83,20 @@ h3 {
 
 body.night-mode {
   .section--heading {
-    background-color: $night-border-color;
+    border-bottom: $default-border $night-border-color;
+    border-top: $default-border $night-border-color;
   }
 }
 
 .section--heading {
-  background: $border-color;
+  border-bottom: $default-border $border-color;
+  border-top: $default-border $border-color;
   padding: $border-radius;
-  border-radius: $border-radius;
+
   margin: $border-radius;
   font-weight: 700;
   font-size: 25px;
+  text-align: center;
 }
 
 body.night-mode {
