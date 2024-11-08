@@ -28,6 +28,7 @@
     padding: 5px;
     border-radius: $border-radius;
     border: $default-border $border-color;
+    background: $button-color;
     cursor: pointer;
 
     h3 {
@@ -41,8 +42,9 @@
     visibility: hidden;
     padding: 0;
     transition: height 0.3s ease-out, padding 0.3s ease-out,
-      visibility 0.3s ease-out;
-    background: $border-color;
+    visibility 0.3s ease-out;
+    border: $default-border $border-color;
+    background: $button-color;
     border-radius: $border-radius;
     margin: $border-radius;
 
@@ -73,8 +75,13 @@
 
 body.night-mode {
   .collapse {
+    &__heading{
+      background: none;
+    }
+
     &__content {
       background-color: $night-accent-primary;
+      border: none;
     }
   }
 }
@@ -82,3 +89,5 @@ body.night-mode {
 .important-word {
   font-weight: 650;
 }
+
+

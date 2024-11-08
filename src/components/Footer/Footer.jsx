@@ -1,9 +1,31 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Link as ScrollLink } from "react-scroll"; // Import ScrollLink
+import { Link, useNavigate, useLocation } from "react-router-dom";
+import { Link as ScrollLink, scroller } from "react-scroll"; // Import ScrollLink et scroller
 import "../../styles/main.scss";
 
 function Footer() {
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  function handleFooterNavClick(section) {
+    if (location.pathname === "/") {
+      // Si déjà sur la page d'accueil, défiler directement vers la section
+      scroller.scrollTo(section, {
+        smooth: true,
+        duration: 500,
+      });
+    } else {
+      // Sinon, naviguer vers la page d'accueil, puis défiler
+      navigate("/");
+      setTimeout(() => {
+        scroller.scrollTo(section, {
+          smooth: true,
+          duration: 500,
+        });
+      }, 100); // Délai pour permettre le chargement de la page
+    }
+  }
+
   return (
     <footer className="footer">
       <div className="footer__div footer__contact">
@@ -61,38 +83,39 @@ function Footer() {
           </li>
         </ul>
       </div>
+
       <div className="footer__div">
         <h3>Naviguer</h3>
         <ul>
           <li>
-            <ScrollLink to="home" smooth={true} duration={500} className="footer-link">
+            <ScrollLink to="home" smooth={true} duration={500} onClick={() => handleFooterNavClick("home")}>
               Retour en haut
             </ScrollLink>
           </li>
           <li>
-            <ScrollLink to="who" smooth={true} duration={500} className="footer-link">
+            <ScrollLink to="who" smooth={true} duration={500} onClick={() => handleFooterNavClick("who")}>
               Qui suis-je
             </ScrollLink>
           </li>
           <li>
-            <ScrollLink to="cv" smooth={true} duration={500} className="footer-link">
+            <ScrollLink to="cv" smooth={true} duration={500} onClick={() => handleFooterNavClick("cv")}>
               CV
             </ScrollLink>
           </li>
           <li>
-            <ScrollLink to="works" smooth={true} duration={500} className="footer-link">
+            <ScrollLink to="works" smooth={true} duration={500} onClick={() => handleFooterNavClick("works")}>
               Travaux
             </ScrollLink>
           </li>
         </ul>
       </div>
+
       <div className="footer__div">
         <h3>Divers :</h3>
         <ul>
           <li>©2024 GICQUEL Yann</li>
           <li><Link to="/legal">Mentions légales</Link></li>
         </ul>
-
       </div>
     </footer>
   );
