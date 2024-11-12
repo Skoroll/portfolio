@@ -7,9 +7,7 @@
   overflow: hidden;
   position: relative;
 
-  &:hover .progress-label {
-    display: flex; /* Devient visible au survol de .progress-bar */
-  }
+
 }
 
 /* Barres pour les langues */
@@ -25,16 +23,16 @@
 }
 
 .progress-label{
-  display: none;
+  display: flex;
   position: absolute;
   margin: 0 ;
   height: 100%;
-  z-index: 999;
+  z-index: 1;
   color: $night-primary-text;
   align-items: center;
   padding-left: 10px ;
   width: 100%;
-  background: rgba(143, 143, 143, 0.253);
+
 }
 
 .progress-fr {
@@ -60,7 +58,8 @@
 .progress-html,
 .progress-css,
 .progress-js,
-.progress-react {
+.progress-react,
+.progress-SEO {
   height: 100%;
   position: absolute;
   top: 0;
@@ -108,6 +107,11 @@
 .progress-react {
   animation-duration: 3s;
   --target-width: 100%; /* Largeur spécifique pour React */
+}
+
+.progress-SEO {
+  animation-duration: 3s;
+  --target-width: 80%; /* Largeur spécifique pour le SEO */
 }
 
 /* Animation de remplissage */

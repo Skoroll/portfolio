@@ -16,6 +16,7 @@ function CV() {
       <img className="CV_div__img" src={myCV} alt="CV of GICQUEL Yann" onClick={openModal} />
       
       <CvModal isOpen={isModalOpen} handleClose={closeModal} />
+      
     </div>
   );
 }

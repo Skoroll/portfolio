@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import myWorks from "../../my-works/myWorks.json";
 import Carrousel from "../../components/Carrousel/Carrousel";
-import NotFound from "../Work/NotFound";
+import NotFound from "../NotFound/NotFound";
 import "./WorksDetails.scss";
 
 function WorkDetail() {

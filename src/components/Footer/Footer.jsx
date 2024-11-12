@@ -28,14 +28,15 @@ function Footer() {
 
   return (
     <footer className="footer">
+      {/* Colonne contact */}
       <div className="footer__div footer__contact">
         <h3>Pour me contacter :</h3>
         <ul>
           <li>
-            <i className="fa-solid fa-envelope"></i> | yg.gicquel@gmail.com
+            <i className="fa-solid fa-envelope"></i> | <a href="mailto:yg.gicquel@gmail.com">yg.gicquel@gmail.com</a>
           </li>
           <li>
-            <i className="fa-solid fa-phone"></i> | 06 45 77 15 83
+            <i className="fa-solid fa-phone"></i> | <a href="tel:0645771583">06 45 77 15 83</a>
           </li>
           <li>
             <Link to="/contact">
@@ -45,6 +46,7 @@ function Footer() {
         </ul>
       </div>
 
+      {/* Colonne liens version desktop */}
       <div className="footer__div footer__links">
         <h3>Les liens :</h3>
         <ul className="footer__links--link">
@@ -65,6 +67,7 @@ function Footer() {
           </li>
         </ul>
 
+        {/* Colonne liens version mobile */}
         <ul className="footer__links--mobile">
           <li>
             <a href="https://github.com/Skoroll" target="_blank" rel="noreferrer">
@@ -84,6 +87,7 @@ function Footer() {
         </ul>
       </div>
 
+      {/* Colonne nav */}
       <div className="footer__div">
         <h3>Naviguer</h3>
         <ul>
@@ -110,6 +114,8 @@ function Footer() {
         </ul>
       </div>
 
+
+      {/* Colonne divers */}
       <div className="footer__div">
         <h3>Divers :</h3>
         <ul>

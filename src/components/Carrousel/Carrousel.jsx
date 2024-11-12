@@ -14,12 +14,16 @@ function Carrousel({ images }) {
 
   return (
     <div className="carrousel">
+      {/*Btn prev  */}
       <button className="carrousel__btn--prev" onClick={prevSlide} aria-label="Image précédente">{<i className="fa-solid fa-arrow-left"></i>}</button>
+      
       <img
         className="carrousel__image"
         src={images[currentIndex]}
         alt={`${currentIndex + 1}`}
       />
+
+      {/*Btn next  */}
       <button className="carrousel__btn--next" onClick={nextSlide} aria-label="Image suivante">{<i className="fa-solid fa-arrow-right"></i>}</button>
     </div>
   );
