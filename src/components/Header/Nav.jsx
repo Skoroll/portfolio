@@ -62,31 +62,43 @@ function Nav() {
       <nav className="nav">
         <i className="fa-solid fa-bars" onClick={navOpen}></i> {/* Ajout du gestionnaire de clic */}
         <ul className={`nav__ul ${isOpen ? "nav__ul--open" : ""}`}> {/* Ajout de la classe conditionnelle */}
+          
+          {/* Ramène en haut de la page d'acceuil */}
           <li>
-            <Link to="/" onClick={handleHomeClick}>Accueil</Link> {/* Utilisation du bouton pour gérer le clic */}
+            <Link to="/" onClick={handleHomeClick}>Accueil</Link> 
           </li>
+          
+          {/* Lien vers "Qui suis-je ?" */}
           <li>
-            <ScrollLink to="who" smooth={true} duration={500} onClick={() => handleNavClick("who")}>
+            <ScrollLink to="who" smooth={true} duration={500} onClick={() => handleNavClick("who")}> 
               Qui suis-je
             </ScrollLink>
           </li>
+
+          {/* Lien vers "Travaux" */}
           <li>
             <ScrollLink to="works" smooth={true} duration={500} onClick={() => handleNavClick("works")}>
               Travaux
             </ScrollLink>
           </li>
+
+          {/* Lien vers "CV" */}
           <li>
             <ScrollLink to="cv" smooth={true} duration={500} onClick={() => handleNavClick("cv")}>
               CV
             </ScrollLink>
           </li>
+
+          {/* Lien vers mon GitHub */}
           <li>
             <a href="https://github.com/Skoroll?tab=repositories" target="_blank" rel="noreferrer" onClick={closeNav}>
               Github
             </a>
           </li>
+
+          {/* Ouvre la modale avec le formulaire de contact */}
           <li>
-            <button onClick={() => { closeNav(); openModal(); }}>Contact</button> {/* Gestion du clic pour ouvrir la modale */}
+            <button onClick={() => { closeNav(); openModal(); }}>Contact</button> 
           </li>
         </ul>
       </nav>

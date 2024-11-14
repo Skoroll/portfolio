@@ -26,7 +26,7 @@ function WorksCards({ works }) {
     {/* Infos du projet */}
     <div className="works__card--content">
 
-      {/* Pourquoi */}  
+      {/* Pourquoi ou lien */}  
       <p className="works__card--why">{works.why}</p>
 
       {/* Description courte */}
