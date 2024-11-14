@@ -27,7 +27,7 @@
     "id": 3,
     "page":"Nina",
     "short": "Débuggage, SEO et optimisation d'un site de photographe",
-    "name": "Nina Carducchi",
+    "name": "Nina Carducci",
     "tools": "Optimisation, Débogage, SEO",
     "need": "Le site d'une photographe présentait deux bugs, de mauvaises performances techniques et des problèmes de SEO (Search Engine Optimization = optimisation pour les moteurs de recherche). Le but était ici d'améliorer le tout, tant au niveau technique qu'au niveau du référencement. Pour ce faire, j'ai utilisé Lighthouse, le plug-in Wave, Twitter Card, Open Graph et les Rich Snippets.",
     "solution": "J'ai établi un rapport d'intervention détaillant les modifications apportées. Pour la partie technique, j'ai changé le format des photos (de JPG à WEBP) pour qu'elles soient plus légères sans perte de qualité et s'affichent plus rapidement. La taille des images a aussi été réduite, également pour accélérer le temps d'affichage. La minification des fichiers CSS et JS a amélioré la vitesse d'affichage du site. L'ajout d'un <i>defer</i> sur les pages JS a permis de lancer les scripts après le chargement du HTML. Mes différentes modifications ont permis d'améliorer la note Lighthouse, passant de <b>88, 68, 100, 70</b> à <b>95, 100, 100, 100</b>.",
