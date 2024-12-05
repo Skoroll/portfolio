@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/main.scss";
-import myCV from "../../assets/CV_Y.GICQUEL.jpg";
+import myCV from "../../assets/CV.webp";
 
 function CvModal({ isOpen, handleClose }) {
   if (!isOpen) return null;

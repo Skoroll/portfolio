@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../../styles/main.scss";
-import myCV from "../../assets/CV_Y.GICQUEL.webp";
+import myCV from "../../assets/CV.webp";
 import CvModal from "./CvModal"; // Assure-toi que le chemin soit correct
 
 function CV() {

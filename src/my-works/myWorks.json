@@ -1,15 +1,15 @@
 [
   {
     "id": 1,
-    "page":"booki",
-    "short": "Créer une page d'un site type AirBnB",
-    "name": "Booki", 
-    "tools": "HTML, CSS, Media queries", 
-    "need": "Projet de ma formation, l'objectif était de créer la page principale d'un site de type 'Airbnb'. Cette page devait proposer un design responsive (qui s'adapte) pour desktop, tablette et mobile. Ensuite, il fallait présenter ce travail, justifier les choix techniques et expliquer la mise en pratique du code.", 
-    "solution": "En utilisant une maquette fournie via Figma, j'ai effectué le découpage et l'interprétation de celle-ci, ce qui s'est traduit par une utilisation intelligente et appropriée de diverses div pour ensuite adapter mes media queries afin d'assurer un affichage optimal sur tous les écrans.",
-    "cover": "https://i.ibb.co/L5JYZWs/2nd.png",
-    "images": ["https://i.ibb.co/s5hkMpn/1st.png", "https://i.ibb.co/L5JYZWs/2nd.png", "https://i.ibb.co/18wCsWz/3rd.png", "https://i.ibb.co/jJtMCJ6/4st.png", "https://i.ibb.co/MRHqCyh/5st.png", "https://i.ibb.co/MZkLN8M/6st.png"],
-    "why": "Projet de formation" 
+    "page":"ChoreHelper",
+    "short": "[WIP] Appli web aidant à organiser son ménage",
+    "name": "ChoreHelper", 
+    "tools": "React, Node.js", 
+    "need": "Un projet qui me tient à coeur, une appli web permettant d'organiser son ménage. L'utilisateur doit être capable de créer son compte et renseigner les pièces de sa maison. Une fois fait, l'appli lui attribue une liste de tâche générique correspondante à ses pièces. Il peut ensuite en ajouter/modifier/retirer. ", 
+    "solution": "Projet full-stack mené seul, principalement pour m'entrainer avec React, approfondir au mieux ce que j'ai mis en place lors de ma formation.",
+    "cover": "https://i.ibb.co/TbFdJsw/Capture-d-cran-2024-12-05-171349.png",
+    "images": ["https://i.ibb.co/Mpjgy9w/r.png", "https://i.ibb.co/DVcZVWy/z.png", "https://i.ibb.co/QN8rZLX/g.png", "https://i.ibb.co/F0Lypmc/e.png"],
+    "why": "Projet personnel, pas encore terminé" 
   },
   {
     "id": 2,
@@ -46,5 +46,17 @@
     "cover": "https://i.ibb.co/T1shcFz/grimoire1.png",
     "images": ["https://i.ibb.co/T1shcFz/grimoire1.png","https://i.ibb.co/dKsmds3/grimoire2.png", "https://i.ibb.co/Qfny7qq/grimoire3.png", "https://i.ibb.co/yPCTq2Y/grimoire4.png"],
     "why": "Projet de formation"
+  },
+  {
+    "id": 5,
+    "page":"booki",
+    "short": "Créer une page d'un site type AirBnB",
+    "name": "Booki", 
+    "tools": "HTML, CSS, Media queries", 
+    "need": "Projet de ma formation, l'objectif était de créer la page principale d'un site de type 'Airbnb'. Cette page devait proposer un design responsive (qui s'adapte) pour desktop, tablette et mobile. Ensuite, il fallait présenter ce travail, justifier les choix techniques et expliquer la mise en pratique du code.", 
+    "solution": "En utilisant une maquette fournie via Figma, j'ai effectué le découpage et l'interprétation de celle-ci, ce qui s'est traduit par une utilisation intelligente et appropriée de diverses div pour ensuite adapter mes media queries afin d'assurer un affichage optimal sur tous les écrans.",
+    "cover": "https://i.ibb.co/L5JYZWs/2nd.png",
+    "images": ["https://i.ibb.co/s5hkMpn/1st.png", "https://i.ibb.co/L5JYZWs/2nd.png", "https://i.ibb.co/18wCsWz/3rd.png", "https://i.ibb.co/jJtMCJ6/4st.png", "https://i.ibb.co/MRHqCyh/5st.png", "https://i.ibb.co/MZkLN8M/6st.png"],
+    "why": "Projet de formation" 
   }
 ]
