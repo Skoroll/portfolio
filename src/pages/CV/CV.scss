@@ -12,7 +12,7 @@
         margin: auto;
         cursor: pointer;
         transition: opacity 0.3s, transform 0.3s;
-        
+        background-color: $primary;
         &:hover{
             transform: scale(1.01);
             border-radius:$border-radius;

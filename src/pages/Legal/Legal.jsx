@@ -47,8 +47,6 @@ function Legal() {
           Le contenu de ce site, incluant textes, images et logos, est la
           propriété exclusive de Yann GICQUEL.
         </p>
-
-        <h3>Politique de confidentialité</h3>
         <p>
           Les informations collectées via ce site ne sont utilisées que dans le
           cadre d’une prise de contact et ne sont pas transmises à des tiers.
