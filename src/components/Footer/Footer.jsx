@@ -36,7 +36,7 @@ function Footer() {
             <i className="fa-solid fa-envelope"></i> | <a href="mailto:yg.gicquel@gmail.com">yg.gicquel@gmail.com</a>
           </li>
           <li>
-            <i className="fa-solid fa-phone"></i> | <a href="tel:0645771583">06 45 77 15 83</a>
+            <i className="fa-solid fa-phone"></i> | <a href="tel:0645771583"> 06 45 77 15 83</a>
           </li>
           <li>
             <Link to="/contact">
@@ -102,13 +102,13 @@ function Footer() {
             </ScrollLink>
           </li>
           <li>
-            <ScrollLink to="cv" smooth={true} duration={500} onClick={() => handleFooterNavClick("cv")}>
-              CV
+            <ScrollLink to="works" smooth={true} duration={500} onClick={() => handleFooterNavClick("works")}>
+              Travaux
             </ScrollLink>
           </li>
           <li>
-            <ScrollLink to="works" smooth={true} duration={500} onClick={() => handleFooterNavClick("works")}>
-              Travaux
+            <ScrollLink to="cv" smooth={true} duration={500} onClick={() => handleFooterNavClick("cv")}>
+              CV
             </ScrollLink>
           </li>
         </ul>
