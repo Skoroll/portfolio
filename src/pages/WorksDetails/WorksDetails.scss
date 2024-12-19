@@ -63,6 +63,13 @@
   button {
     position: absolute;
     top: 50%;
+    background: $primary;
+    color: $accent-primary;
+
+    &:hover{
+      background: $accent-secondary;
+      color: $night-primary-text;
+    }
   }
 
   &__btn--next {

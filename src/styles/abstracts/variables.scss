@@ -1,24 +1,24 @@
 // Couleurs principales
-$primary: #EAEAEA; // Couleur de fond plus claire
-$primary-text: #1E1E1E; // Texte légèrement plus sombre pour un meilleur contraste
-$accent-primary: #FF4F4F; // Rouge vif pour l'accent
-$accent-secondary: #FF6F61; // Un ton légèrement plus doux pour l'accent secondaire
-$button-color: #FFFFFF; // Texte de bouton en blanc pour contraster avec le fond
-$border-color: #C0C0C0; // Légèrement assombri
+$primary: #EAEAEA; 
+$primary-text: #1E1E1E; 
+$accent-primary: #cb5527; 
+$accent-secondary: #d67a55; 
+$button-color: #FFFFFF; 
+$border-color: #C0C0C0; 
 $border-transparent: 1px solid transparent;
 
 // Couleurs mode nuit
-$night-primary: #121212; // Fond très sombre pour le mode nuit
-$night-primary-text: #F0F0F0; // Texte plus clair pour le mode nuit
-$night-accent-primary: #FF4F4F; // Garder le même rouge vif pour l'accent
-$night-accent-secondary: #FF6F61; // Garder aussi le ton plus doux pour l'accent secondaire
-$night-button-bg: $night-accent-primary; // Fond de bouton pour le mode nuit
-$night-button-color: $night-primary-text; // Texte de bouton plus clair
-$night-border-color: #444444; // Bordure légèrement assombrie
-$night-focus-border-color: #FF6F61; // Couleur de la bordure de focus
+$night-primary: #121212; 
+$night-primary-text: #F0F0F0; 
+$night-accent-primary: #FF4F4F; 
+$night-accent-secondary: #FF6F61; 
+$night-button-bg: $night-accent-primary; 
+$night-button-color: $night-primary-text; 
+$night-border-color: #444444; 
+$night-focus-border-color: #FF6F61; 
 
 // Autres styles
-$border-radius: 10px; // Légèrement réduit pour un style plus net
+$border-radius: 10px; 
 $default-border: 1px solid;
 $transition-border-bottom: border-bottom 1.5s;
 
