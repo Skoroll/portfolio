@@ -4,6 +4,7 @@ import AffinityBars from "../../components/Bars/AffinityBars";
 import Who from "../Who/Who";
 import CV from "../CV/CV";
 import Works from "../Work/Works";
+import KnowLanguages from "../../components/KnownLanguages/KnownLanguages"
 import profilePicture from "../../assets/profile/10.26.00_87e200d3.webp";
 
 function Home() {
@@ -30,6 +31,7 @@ function Home() {
         <AffinityBars />
         <LangBars />
       </div>
+      <KnowLanguages />
 
       <Who />
      

@@ -60,53 +60,6 @@ function AffinityBars() {
             </div>
           </div>
         </div>
-
-        {/*Barre  HTML*/}
-        <div className="code-affinity__column">
-          <div className="affinity__item">
-            <p className="affinity__title">
-              <i className="fa-brands fa-html5"></i> HTML
-            </p>
-            <div className="progress-bar">
-              <p className="progress-label">100%</p>
-              <div className="progress-html"></div>{" "}
-            </div>
-          </div>
-
-          {/*Barre CSS */}
-          <div className="affinity__item">
-            <p className="affinity__title">
-              <i className="fa-brands fa-css3-alt"></i> CSS
-            </p>
-            <div className="progress-bar">
-              <p className="progress-label">100%</p>
-              <div className="progress-css"></div>{" "}
-            </div>
-          </div>
-
-          {/*Barre JS */}
-          <div className="affinity__item">
-            <p className="affinity__title">
-              <i className="fa-brands fa-js"></i> JavaScript
-            </p>
-            <div className="progress-bar">
-              <p className="progress-label">90%</p>
-              <div className="progress-js"></div>{" "}
-            </div>
-          </div>
-
-          {/*Barre React */}
-          <div className="affinity__item">
-            <p className="affinity__title">
-              <i className="fa-brands fa-react"></i> React
-            </p>
-            <div className="progress-bar">
-              <p className="progress-label">100%</p>
-              <div className="progress-react"></div>{" "}
-            </div>
-          </div>
-          
-        </div>
       </div>
     </div>
   );
