@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "FakeRestaurant",
+        "type": "Restaurant",
+        "features": ["Menu Déroulant", "Formulaire de réservation par e-mail", "Simple fomurlaire de contact"],
+        "languages": ["React", "TypeScript"],
+        "cover": "",
+        "images": ""
+    },
+    {
+        "id": 2,
+        "name": "",
+        "type": "",
+        "features": ["", ""],
+        "languages": ["", ""],
+        "cover": "",
+        "images": ""
+    },
+    {
+        "id": 3,
+        "name": "",
+        "type": "",
+        "features": ["", ""],
+        "languages": ["", ""],
+        "cover": "",
+        "images": ""
+    }
+]

@@ -28,6 +28,15 @@ function WorkDetail() {
           <img src={work.images[0]} alt={work.name} />
         </div>
         <div className="work-detail__text">
+          {work.link !== null &&
+            <p>Lien : 
+                <a href={work.link}> 
+                  {work.name}
+                </a> 
+            </p>
+            
+          }
+
           <p>
             <span className="work-detail__text--heading">Pourquoi :</span>{" "}
             <br/>

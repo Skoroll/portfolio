@@ -9,7 +9,8 @@
     "solution": "Appli sans login, avec des sons prédéterminé, possibilité d'en faire une appli avec un back pour que les utilisateurs puissent uploader leurs sons.",
     "cover": "https://i.ibb.co/GVW60Cm/ezgif-5-a77219475d.gif",
     "images": ["https://i.ibb.co/GVW60Cm/ezgif-5-a77219475d.gif", "", "", ""],
-    "why": "J'ai besoin d'un outil rapide pour joeur des sons dans mes sessions de jeu de rôle." 
+    "why": "J'ai besoin d'un outil rapide pour joeur des sons dans mes sessions de jeu de rôle.",
+    "link": null
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
     "solution": "Projet full-stack mené seul, principalement pour m'entrainer avec React, approfondir au mieux ce que j'ai mis en place lors de ma formation.",
     "cover": "https://i.ibb.co/TbFdJsw/Capture-d-cran-2024-12-05-171349.png",
     "images": ["https://i.ibb.co/Mpjgy9w/r.png", "https://i.ibb.co/DVcZVWy/z.png", "https://i.ibb.co/QN8rZLX/g.png", "https://i.ibb.co/F0Lypmc/e.png"],
-    "why": "Projet personnel, pas encore terminé" 
+    "why": "Projet personnel, pas encore terminé",
+    "link": "https://skoroll.github.io/Clean/"
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
     "solution": "Le site a été créé avec React, en se basant sur la maquette fournie. Le site a nécessité plusieurs composants réutilisables, et j'ai également dû mettre en place les différentes routes, ainsi qu'une route de récupération (404) en cas de problème d'URL. J'ai aussi appris à créer des composants utilisant différents hooks afin de gérer les états.",
     "cover": "https://i.ibb.co/nCJ1Sg6/Kasa1.png",
     "images": ["https://i.ibb.co/nCJ1Sg6/Kasa1.png", "https://i.ibb.co/kMzpPx4/Kasa2.png", "https://i.ibb.co/mvQN68S/Kasa3.png", "https://i.ibb.co/6syvMW9/Kasa4.png"],
-    "why": "Projet de formation"
+    "why": "Projet de formation",
+    "link": null
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
     "solution": "J'ai établi un rapport d'intervention détaillant les modifications apportées. Pour la partie technique, j'ai changé le format des photos (de JPG à WEBP) pour qu'elles soient plus légères sans perte de qualité et s'affichent plus rapidement. La taille des images a aussi été réduite, également pour accélérer le temps d'affichage. La minification des fichiers CSS et JS a amélioré la vitesse d'affichage du site. L'ajout d'un <i>defer</i> sur les pages JS a permis de lancer les scripts après le chargement du HTML. Mes différentes modifications ont permis d'améliorer la note Lighthouse, passant de <b>88, 68, 100, 70</b> à <b>95, 100, 100, 100</b>.",
     "cover": "https://i.ibb.co/rfch0Tp/codeSEO1.png",
     "images": ["https://i.ibb.co/rfch0Tp/codeSEO1.png", "https://i.ibb.co/8YxY4dv/codeSEO2.png", "https://i.ibb.co/fd5j8jQ/Nina-Score.png"],
-    "why": "Projet de formation"
+    "why": "Projet de formation",
+    "link": null
   },
   {
     "id": 5,
@@ -57,6 +61,7 @@
     "solution": "J'ai crée un serveur en utilisant Node.js et Express.<br/>L'API devait permettre de créer un compte et s'identifier, créer, modifier, supprimer un livre et noter des oeuvres. Elle devait aussi, bien sûr, permettre de récupérer les livres stocké sur la base de donnés.<br/>Côté base de donné, c'est MongoDB qui a été utilisé.<br/>En terme de sécurité j'ai ajouté bcrypt, helmet, express rate limit.",
     "cover": "https://i.ibb.co/T1shcFz/grimoire1.png",
     "images": ["https://i.ibb.co/T1shcFz/grimoire1.png","https://i.ibb.co/dKsmds3/grimoire2.png", "https://i.ibb.co/Qfny7qq/grimoire3.png", "https://i.ibb.co/yPCTq2Y/grimoire4.png"],
-    "why": "Projet de formation"
+    "why": "Projet de formation",
+    "link": null
   }
 ]

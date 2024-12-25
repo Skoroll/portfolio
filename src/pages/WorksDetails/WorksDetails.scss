@@ -16,6 +16,12 @@
     margin: 50px auto;
     background: $button-color;
     padding: calc($page-padding * 2);
+
+    p{
+      a{
+        margin-left: 5px;
+      }
+  }
   }
 
   &__img-mobile {
