@@ -8,15 +8,16 @@ const Collapse = ({ title, content }) => {
   };
 
   return (
-    /* Gère l'état ouvert/fermé du collapse, si ouvert, applique "open" à la classe */
     <div className={`collapse ${isOpen ? 'open' : ''}`}>
       <div className="collapse__heading" onClick={toggleCollapse}>
-        {/* Récupère le titre de CollapseData : */}
         <h3 className="collapse__title">{title}</h3>
         <i className={`fa-solid fa-arrow-down`}></i>
       </div>
-      {/* Récupère le contenu et l'applique en HTML pour simplifier la mise en page : */}
-      <div className="collapse__content" dangerouslySetInnerHTML={{ __html: content }} />
+
+      {/* Inclure le contenu dans la div contrôlée */}
+      <div className="collapse__content" dangerouslySetInnerHTML={{ __html: content }}>
+        
+      </div>
     </div>
   );
 };

@@ -81,7 +81,7 @@ const collapseData = [
   { 
     title: 'Passion', 
     content: `
-      Passionné par la <strong>musique</strong>, avec des goûts très éclectiques, 
+      <p>Passionné par la <strong>musique</strong>, avec des goûts très éclectiques, 
       j'ai quelques années d'expérience en tant que <strong>bassiste</strong> dans des groupes (le dernier en date : <a target="_blank" rel="noreferrer"  href="https://www.youtube.com/watch?v=b6iwTz9IA_I">Davyn</a>).
       <br />
       Cette expérience m'a permis de développer <strong>des compétences en travail de groupe</strong>,
