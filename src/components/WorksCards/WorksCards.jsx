@@ -11,26 +11,32 @@ function WorksCards({ works }) {
 
   return (
 <div className="works__card" onClick={handleClick}>
-  {/* Nom du projet */}
-  <h2 className="works__card--heading">{works.name}</h2>
-  <div className="works__card--wrapper">
-    {/* Image */}
-    <div className="works__card--cover">
-      <img
-        src={works.cover}
-        alt={works.name}
-        className="works__card--cover-image"
-      />
+  <div>
+    {/* Nom du projet */}
+    <h2 className="works__card--heading">{works.name}</h2>
+    <div className="works__card--wrapper">
+      {/* Image */}
+      <div className="works__card--cover">
+        <img
+          src={works.cover}
+          alt={works.name}
+          className="works__card--cover-image"
+        />
+      </div>
     </div>
-
     {/* Infos du projet */}
     <div className="works__card--content">
 
-      {/* Pourquoi ou lien */}  
-      <p className="works__card--why">{works.why}</p>
-
+      {/* Pourquoi ou lien */} 
+      <div>
+        <p className="works__card--subheading">Besoin :</p> 
+        <p className="works__card--why">{works.why}</p>
+      </div>
       {/* Description courte */}
-      <p className="works__card--short">{works.short}</p>
+      <div>
+      <p className="works__card--subheading">Réponse :</p> 
+        <p className="works__card--short">{works.short}</p>
+      </div>
 
       {/* Tags du projet */}
       <div className="works__card--tools">

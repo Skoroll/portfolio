@@ -29,12 +29,14 @@ function WorkDetail() {
         </div>
         <div className="work-detail__text">
           {work.link !== null &&
-            <p>Lien : 
-                <a href={work.link}> 
-                  {work.name}
-                </a> 
+            <p> 
+              <span className="work-detail__text--heading"> 
+                  Lien : 
+              </span>
+              <a href={work.link}> 
+                {work.name}
+              </a> 
             </p>
-            
           }
 
           <p>
