@@ -1,6 +1,19 @@
 [
   {
     "id": 1,
+    "page":"Greek Taverna",
+    "short": "Création d'un template de restaurant",
+    "name": "", 
+    "tools": "React, TypeScript, SASS", 
+    "need": "Template à proposer à des clients", 
+    "solution": "Site simple permettant aux clients de consulter la carte et de faire une réservation via un formulaire dédié.",
+    "cover": "https://i.ibb.co/4Zg6BpC/2025-01-03-23-18-34.gif",
+    "images": ["https://i.ibb.co/4Zg6BpC/2025-01-03-23-18-34.gif", "https://i.ibb.co/4ZyRY5D/2025-01-03-23-18-43.gif", "", "", ""],
+    "why": "Simplifier la création de site web de restaurateur.",
+    "link": null
+  },
+  {
+    "id": 1,
     "page":"GameMasterSoundBoard",
     "short": "[WIP] Appli de soundboard pour jeu de rôle",
     "name": "GameMaster SoundBoard", 
