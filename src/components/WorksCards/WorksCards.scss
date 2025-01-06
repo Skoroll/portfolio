@@ -35,10 +35,14 @@
     }
 
     @media (min-width: 968px) {
+      width: 45%;
+      margin: 0;
+    }
+    @media (min-width: 1400px) {
       width: 30%;
       margin: 0;
     }
-    
+
     
 
     &--heading {

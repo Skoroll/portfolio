@@ -1,19 +1,32 @@
 [
   {
     "id": 1,
+    "page":"Skorol Music",
+    "short": "Simple application rapide à mettre à jour et facilement partageable pour faire découvrir des chansons.",
+    "name": "Skorol Music", 
+    "tools": "React, TypeScript, Tailwind", 
+    "need": "Partager une liste de morceaux", 
+    "solution": "Skorol Music me permet de partager rapidement de la musiques sur mes réseaux, le site est facile à mettre à jour car les morceaux sont injecté via un fichier JS. <br/> Le site est diviser en 2 pages : <ul><li>La page d'accueil</li><li>La page des filtres</li></ul> La première affiche sous forme de collapses les 3 morceaux de la semaine quant à la 2eme page, elle permet d'accèder aux morceaux des semaines précédents en les filtrants par genre.",
+    "cover": "https://i.ibb.co/3Y3h2Vn/Capture.png",
+    "images": ["https://i.ibb.co/3Y3h2Vn/Capture.png", "https://i.ibb.co/gt6r7Jy/aa.png", "https://i.ibb.co/nghWGNJ/aaaaa.png"],
+    "why": "Enrichir mes réseaux sociaux, s'entrainer avec Tailwind et TS.",
+    "link": "https://skoroll.github.io/skorol-music/"
+  },
+  {
+    "id": 2,
     "page":"Greek Taverna",
     "short": "Création d'un template de restaurant",
-    "name": "", 
+    "name": "Greek Taverna", 
     "tools": "React, TypeScript, SASS", 
     "need": "Template à proposer à des clients", 
-    "solution": "Site simple permettant aux clients de consulter la carte et de faire une réservation via un formulaire dédié.",
+    "solution": "Site simple permettant aux clients de consulter la carte et de faire une réservation via un formulaire dédié. <br/> Les catégories du menu (Boissons, entrée, plats ...) sont ",
     "cover": "https://i.ibb.co/4Zg6BpC/2025-01-03-23-18-34.gif",
-    "images": ["https://i.ibb.co/4Zg6BpC/2025-01-03-23-18-34.gif", "https://i.ibb.co/4ZyRY5D/2025-01-03-23-18-43.gif", "", "", ""],
+    "images": ["https://i.ibb.co/4Zg6BpC/2025-01-03-23-18-34.gif", "https://i.ibb.co/4ZyRY5D/2025-01-03-23-18-43.gif"],
     "why": "Simplifier la création de site web de restaurateur.",
     "link": null
   },
   {
-    "id": 1,
+    "id": 3,
     "page":"GameMasterSoundBoard",
     "short": "[WIP] Appli de soundboard pour jeu de rôle",
     "name": "GameMaster SoundBoard", 
@@ -26,7 +39,7 @@
     "link": null
   },
   {
-    "id": 2,
+    "id": 4,
     "page":"ChoreHelper",
     "short": "[WIP] Appli web permettant d'organiser ses tâches par pièces, avec un ajout de tâches custom",
     "name": "ChoreHelper", 
@@ -39,7 +52,7 @@
     "link": "https://skoroll.github.io/Clean/"
   },
   {
-    "id": 3,
+    "id": 5,
     "page":"Kasa",
     "short": "Création d'un site avec React, comportant diverses routes et un système d'affichage des informations d'appartements",
     "name": "Kasa",
@@ -52,7 +65,7 @@
     "link": null
   },
   {
-    "id": 4,
+    "id": 6,
     "page":"Nina",
     "short": "Débuggage, SEO et optimisation, création d'un rapport d'intervention détaillé",
     "name": "Nina Carducci",
@@ -65,7 +78,7 @@
     "link": null
   },
   {
-    "id": 5,
+    "id": 7,
     "page":"Grimoire",
     "short": "Serveur Express.js à créer, avec login/logout et formulaire d'ajout d'entrée sur la DB",
     "name": "Mon Vieux Grimoire",
