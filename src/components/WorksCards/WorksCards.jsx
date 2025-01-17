@@ -40,7 +40,7 @@ function WorksCards({ works }) {
           {/* Section "Pourquoi" */}
           <div>
             <p className="works__card--subheading">Besoin :</p>
-            <p className="works__card--why">{works.why}</p>
+            <p className="works__card--why" dangerouslySetInnerHTML={{ __html: works.why }}></p>
           </div>
           {/* Réponse courte */}
           <div>

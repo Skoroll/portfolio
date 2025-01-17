@@ -23,7 +23,7 @@
     "name": "Skorol Music",
     "tools": "React, TypeScript, Tailwind",
     "need": "Partager une liste de morceaux.",
-    "solution": "Skorol Music me permet de partager rapidement de la musique sur mes réseaux. Le site est facile à mettre à jour car les morceaux sont injectés via un fichier JS.<br/>Le site est divisé en 2 pages : <ul><li>La page d'accueil</li><li>La page des filtres</li></ul>La première affiche sous forme de collapses les 3 morceaux de la semaine, tandis que la deuxième page permet d'accéder aux morceaux des semaines précédentes en les filtrant par genre.",
+    "solution": "Skorol Music me permet de partager rapidement de la musique sur mes réseaux. Le site est facile à mettre à jour car les morceaux sont injectés via un fichier JS.<br>Le site est divisé en 2 pages : <ul><li>La page d'accueil</li><li>La page des filtres</li></ul>La première affiche sous forme de collapses les 3 morceaux de la semaine, tandis que la deuxième page permet d'accéder aux morceaux des semaines précédentes en les filtrant par genre.",
     "cover": "/works/SkorolMusic/SC_0.webp",
     "images": [
       "/works/SkorolMusic/SC_1.webp",
