@@ -22,10 +22,12 @@ function WorkDetail() {
       <h2>{work.name}</h2>
       <div className="work-detail__container">
         <div className="work-detail__img-container">
-          <Carrousel images={work.images} />
+          <Carrousel 
+          images={work.images.map((image) => `${process.env.PUBLIC_URL}${image}`)} />
         </div>
         <div className="work-detail__img-mobile">
-          <img src={work.images[0]} alt={work.name} />
+          <img src={`${process.env.PUBLIC_URL}${work.images[0]}`} alt={work.name} /> 
+          
         </div>
         <div className="work-detail__text">
           {work.link !== null &&
